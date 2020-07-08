@@ -12,6 +12,6 @@ import org.springframework.stereotype.Service;
 public class PersonRunC implements RunC{
     @Override
     public void runT(){
-        System.out.println("person run");
+        System.out.println("this is person run");
     }
 }

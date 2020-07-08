@@ -12,6 +12,6 @@ import org.springframework.stereotype.Service;
 public class GirlRunC extends PersonRunC {
     @Override
     public void runT() {
-        System.out.println("girl run");
+        System.out.println("this is girl run");
     }
 }
