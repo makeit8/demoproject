@@ -1,5 +1,6 @@
 package com.example.abstracttest;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,9 +10,11 @@ import org.springframework.stereotype.Service;
  * @Date 2020/7/8
  */
 @Service("girlRunc")
+@Slf4j
 public class GirlRunC extends PersonRunC {
     @Override
     public void runT() {
         System.out.println("this is girl run");
+        log.info("this is girl run");
     }
 }
