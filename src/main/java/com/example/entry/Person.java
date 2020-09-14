@@ -13,6 +13,7 @@ public class Person {
     String name;
     private String desc;
     private String remake;
+    private String address;
 
     public Integer getAge() {
         return age;
