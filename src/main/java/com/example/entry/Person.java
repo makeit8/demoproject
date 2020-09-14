@@ -12,6 +12,8 @@ public class Person {
     Integer age;
     String name;
     private String desc;
+    private String remake;
+    private String address;
 
     public Integer getAge() {
         return age;
@@ -35,6 +37,22 @@ public class Person {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public String getRemake() {
+        return remake;
+    }
+
+    public void setRemake(String remake) {
+        this.remake = remake;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public Person(Integer age, String name) {
