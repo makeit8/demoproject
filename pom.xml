@@ -65,6 +65,16 @@
 			<artifactId>elasticsearch</artifactId>
 			<version>6.6.1</version>
 		</dependency>
+		<!-- AOP -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xstore.cart</groupId>
+			<artifactId>xstore-cart-center-api</artifactId>
+			<version>1.2.8-wanjiacart-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

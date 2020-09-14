@@ -33,6 +33,9 @@ public class Person {
         this.name = name;
     }
 
+    public Person() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -45,5 +48,13 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(age, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
