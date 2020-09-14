@@ -11,6 +11,9 @@ import java.util.Objects;
 public class Person {
     Integer age;
     String name;
+    private String desc;
+    private String remake;
+    private String address;
 
     public Integer getAge() {
         return age;
@@ -28,9 +31,36 @@ public class Person {
         this.name = name;
     }
 
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public String getRemake() {
+        return remake;
+    }
+
+    public void setRemake(String remake) {
+        this.remake = remake;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     public Person(Integer age, String name) {
         this.age = age;
         this.name = name;
+    }
+
+    public Person() {
     }
 
     @Override
@@ -45,5 +75,13 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(age, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
