@@ -11,6 +11,7 @@ import java.util.Objects;
 public class Person {
     Integer age;
     String name;
+    private String desc;
 
     public Integer getAge() {
         return age;
@@ -26,6 +27,14 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     public Person(Integer age, String name) {
