@@ -47,6 +47,14 @@ public class Person {
         this.remake = remake;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     public Person(Integer age, String name) {
         this.age = age;
         this.name = name;
